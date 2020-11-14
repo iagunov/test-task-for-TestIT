@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    height: 1500px;
+    background-color: #fff;
+    min-width: 1920px;
+    
+}
+
+/* стили header */
+
+header {
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header__content {
+    position: absolute;
+    min-width: 1920px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #7b258e;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.fix{
+    position: fixed;
+    min-width: 1920px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #7b258e;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header__text {
+    position: absolute;
+    height: 40px;
+    left: 0;
+    right: 0;
+    top: calc(50% - 40px/2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+
+    color: #FFFFFF;
+}
+
+/* стилик блока с продуктами */
+
+.products-block {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1920px;
+    height: 480px;
+    background-color: #363636;
+}
+
+.container { 
+    width: 1493px;
+}
+
+.title__products {
+    width: 342px;
+    height: 322px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* стили карточек */
+
+.card__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin-top: 182px;
+}
+
+.card {
+
+    width: 257px;
+    height: 322px;
+    background-color: #FFF;
+    background: #C4C4C4;
+    mix-blend-mode: normal;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.image__content_vector {
+    width: 257px;
+    height: 172px;
+    background-color: #A01F1F;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.image__content_testit {
+    width: 257px;
+    height: 172px;
+    background-color: #218593;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.image__content_bimeister {
+    width: 257px;
+    height: 172px;
+    background-color:  #0E3B7E;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.card-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #000000;
+}
+
+.cardClick {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    width: 240px;
+    height: 322px;
+    top: 182px;
+    opacity: 0;
+}
