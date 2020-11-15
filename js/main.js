@@ -4,7 +4,9 @@
 
 window.onscroll = function(){
     const scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    const o=document.getElementById('stickyHeader');
+    const o = document.getElementById('stickyHeader');
+
+
     if (scrolled > 0) o.setAttribute('class','fix');
     else o.setAttribute('class','header__content');
 }
